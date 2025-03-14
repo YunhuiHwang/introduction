@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자기소개_황윤희</title>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+    />
+    <style>
+      body {
+        font-family: "Pretendard Variable", sans-serif;
+        display: flex;
+        font-size: 17px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        width: 100%;
+        max-width: 900px;
+        background: white;
+        display: flex;
+      }
+      .left {
+        width: 35%;
+        position: relative;
+        display: flex;
+        padding: 20px 0 20px 20px;
+      }
+      .left::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 42%;
+        height: 100%;
+        background: linear-gradient(to bottom, #5b87ff, #ffffff);
+      }
+      .left img {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+      }
+      .right {
+        width: 70%;
+        padding: 40px 0 40px 30px;
+        display: flex;
+        flex-direction: column;
+      }
+      .right h1 {
+        margin: 30px 0 10px 0;
+        font-size: 2.5em;
+        font-weight: 900;
+      }
+      .divider01 {
+        width: 100%;
+        height: 1px;
+        background-color: #5b87ff;
+        margin: 20px 0 0 0;
+      }
+      .divider02 {
+        width: 50%;
+        height: 5px;
+        background-color: #5b87ff;
+        margin: 0 0 30px 0;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+      }
+      .section h2 {
+        color: #5b87ff;
+        font-size: 1.3em;
+        font-weight: 800;
+        margin: 0;
+      }
+      .section ul {
+        color: black;
+        font-weight: 500;
+        list-style: none;
+        padding: 0;
+      }
+      .section li {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="css/profile.jpg" alt="프로필 사진" />
+      </div>
+      <div class="right">
+        <h1>황윤희</h1>
+        <div class="divider01"></div>
+        <div class="divider02"></div>
+        <div class="grid-container">
+          <div class="section">
+            <h2>-소개</h2>
+            <ul>
+              <li>1999 여자</li>
+              <li>INTP</li>
+              <li>경영정보학과</li>
+            </ul>
+          </div>
+          <div class="section">
+            <h2>-취미</h2>
+            <ul>
+              <li>여행</li>
+              <li>등산, 풋살</li>
+              <li>독서, 해축</li>
+            </ul>
+          </div>
+          <div class="section">
+            <h2>-경험</h2>
+            <ul>
+              <li>데이터 분석 (Python)</li>
+              <li>DB 관리, ERP</li>
+              <br />
+              <li>기초 프로그래밍, 자바 스터디</li>
+              <li>모바일 게임 개발</li>
+            </ul>
+          </div>
+          <div class="section">
+            <h2>-장점</h2>
+            <ul>
+              <li>JAVA, Python</li>
+              <li>프론트는 진----짜 조금</li>
+              <li>자기객관화</li>
+              <li>회복탄력성</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
